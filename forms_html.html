@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="forms_style.css">
+</head>
+<body class="body">
+    <h1 class="survey"><b><u>Survey Form</u></b></h1>
+    <form action="" class="form">
+        <p class="camp"><h3>Let us know how we can improve freecodecamp</h3></p>
+        <p><b>Name:*</b><input type="text" class="name" required></p>
+        <p><b>Email:* </b><input type="email" class="email" required></p>
+        <p><b>Age:*  </b><input type="number" class="age" required></p>
+        <p class="option"><strong>Which option describe you the best:</strong>  
+            <select required>
+                <option value="">Select an option</option>
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="Employee">Employee</option>
+            </select>
+        </p>
+        <p>
+        <b>How likely is that you would recommend freecodecamp to a friend?:*</b><br>
+            <b>Definitely<input type="radio" class="def" required>
+            Maybe<input type="radio" class="may">
+            Never<input type="radio" class="no"></b>
+        </p>
+        <p><b>What do you like most in FCC?</b>
+            <select required>
+                <option value="">Select an option</option>
+                <option value="teaching">Teaching</option>
+                <option value="Services">Service</option>
+                <option value="Attitude">Attitude</option>
+            </select>
+        </p>
+        <p><b>Things that should be improved in the future:</b>
+            <b>Front-End projects<input type="checkbox" class="front">
+            Back-End projects<input type="checkbox" class="back">
+            Data Visualization<input type="checkbox" class="Data"></b>
+        </p>
+        <input type="submit" value="Submit" size="15px">
+    </form>
+</body>
+</html>

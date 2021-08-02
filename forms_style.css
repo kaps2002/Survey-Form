@@ -1,0 +1,33 @@
+.body{
+    background-color:cadetblue;
+}
+.form{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    font-size: 20px ;
+    background-color:rgb(212, 20, 20);
+    margin: 30px 100px;
+    padding: 40px 40px;
+    border: black solid 5px;
+    border-radius: 10px;
+}
+.survey{
+    text-align: center;
+}
+input[type="submit"]{
+    size: 10px;
+    block-size: 30px;
+    background-color: burlywood;
+    color: rgb(255, 0, 0);
+    border: black solid;
+    border-radius: 8px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(196, 199, 32);
+}
+.name,
+.email,
+.age{
+    border: black solid;
+    border-radius: 7px;
+}
